@@ -20,7 +20,7 @@ that couldn’t just be omitted or passed by, especially from CI point of view
 that was no-no way to go. SharePoint 2016 just isn’t able to add SPFX app to the
 web from PowerShell or .net. [Installing SPFX on a
 web](https://docs.microsoft.com/en-us/powershell/module/sharepoint-pnp/install-pnpapp?view=sharepoint-ps)
-- crearly states “Only SharePoint 2019 or online is capable of doing it”. That’s
+ crearly states “Only SharePoint 2019 or online is capable of doing it”. That’s
 most unfortunate, which makes a lot of project architectures to crack against
 SPFX. That’s not the end, as SPFX Extension are not included to SharePoint 2016
 at all! There’s no solution template which may be deployed to the farm.
